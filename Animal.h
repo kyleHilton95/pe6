@@ -40,6 +40,7 @@ public:
 
 };
 
+
 class Human : public Animal {
 public:
         Human():
@@ -50,6 +51,5 @@ public:
         int GetPower() { return 70; };
 
 };
-
 
 #endif  // _ANIMAL_H_
