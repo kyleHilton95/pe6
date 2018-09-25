@@ -40,4 +40,16 @@ public:
 
 };
 
+class Human : public Animal {
+public:
+        Human():
+        Animal("HOLY #$&% IS THAT A WOLF!")
+        {}
+
+
+        int GetPower() { return 70; };
+
+};
+
+
 #endif  // _ANIMAL_H_
